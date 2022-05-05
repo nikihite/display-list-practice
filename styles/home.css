@@ -1,4 +1,8 @@
 /* add home page styles here */
+body {
+    background-color: rgb(240, 234, 226);
+}
+
 #crystals img {
     width: 275px;
     height: 250px;
@@ -12,6 +16,9 @@
     font-size: 35px;
     margin-left: 10%;
 }
+h1 {
+    border-bottom: 3px solid black;
+}
 
 #crystals {
     font-family: fantasy;
@@ -22,5 +29,15 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 23px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+ul {
+    font-size: 25px;
+    border: 3px solid black;
 }
