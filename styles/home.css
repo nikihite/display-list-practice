@@ -1,1 +1,26 @@
 /* add home page styles here */
+#crystals img {
+    width: 275px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+
+#header {
+    font-size: 35px;
+    margin-left: 10%;
+}
+
+#crystals {
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 18px;
+}
