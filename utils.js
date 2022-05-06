@@ -41,3 +41,20 @@ export function renderPlant(plant) {
     div.append(h1, img, p);
     return div;
 }
+
+export function renderZodiac(zodiac) {
+    const div = document.createElement('div');
+    div.classList.add('zodiac');
+
+    const h1 = document.createElement('h1');
+    h1.textContent = zodiac.name;
+
+    const img = document.createElement('img');
+    img.src = zodiac.image;
+
+    const p = document.createElement('p');
+    p.textContent = `${zodiac.name} are the ${zodiac.number} air sign of the zodiac. Under the tropical zodiac, the sun transits this sign between ${zodiac.birthRange}. ${zodiac.name} are ruled by ${zodiac.rulingPlanet}, and their symbol is ${zodiac.symbol}`;
+
+    div.append(h1, img, p);
+    return div;
+}
