@@ -21,6 +21,15 @@ body {
     margin: 10px;
 }
 
+#zodiacs img {
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+}
+
 #header {
     font-size: 35px;
     margin-left: 10%;
@@ -41,6 +50,14 @@ h1 {
 }
 
 #plants {
+    font-family: fantasy;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#zodiacs {
     font-family: fantasy;
     display: flex;
     flex-direction: row;

@@ -4,6 +4,8 @@ import { renderCrystal } from '../utils.js';
 import { crystals } from '../crystals.js';
 import { plants } from '../plants.js';
 import { renderPlant } from '../utils.js';
+import { renderZodiac } from '../utils.js';
+import { zodiacs } from '../zodiacs.js';
 
 
 const test = QUnit.test;
@@ -33,7 +35,7 @@ test('time to test a function', (expect) => {
 test('time to test a function', (expect) => {
     const expected = `<div id="zodiacs"><h1 id="header">Gemini</h1><img src="./assets/gemini.jpeg"><p>Geminis are the first air sign of the zodiac. Under the tropical zodiac, the sun transits this sign between May 21-June 21. Geminis are ruled by Mercury, and their symbol is "The Twins"</p></div>`;
     
-    const actual = renderZodiac(zodiac[0]);
+    const actual = renderZodiac(zodiacs[0]);
 
     expect.equal(actual.outerHTML, expected);
 });
