@@ -12,7 +12,7 @@ export function renderCrystal(crystal) {
     p.textContent = `${crystal.name} is used for ${crystal.healingProperties}`;
 
     const h2 = document.createElement('h2');
-    h2.textContent = 'Chakras';
+    h2.textContent = 'Chakras:';
 
     const ul = document.createElement('ul');
     for (let chakra of crystal.chakras) {
