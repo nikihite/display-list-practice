@@ -25,7 +25,7 @@ test('time to test a function', (expect) => {
 });
 
 test('time to test a function', (expect) => {
-    const expected = `<div class=\"plant\"><h1>Snake Plant</h1><img src=\"./assets/snake-plant.webp\"><p>Snake Plant should be kept in indirect light , kept within a temperature of 70-90° , and a humidity of average</p></div>`;
+    const expected = `<div class="plant"><h1>Snake Plant</h1><img src="./assets/snake-plant.webp"><p>Snake Plant should be kept in indirect light , kept within a temperature of 70-90° , and a humidity of average</p></div>`;
     
     const actual = renderPlant(plants[0]);
 
